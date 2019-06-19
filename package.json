@@ -1,0 +1,23 @@
+{
+  "name": "crdt-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recyclerobot/crdt-poc.git"
+  },
+  "author": "Thijs Bernolet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/recyclerobot/crdt-poc/issues"
+  },
+  "homepage": "https://github.com/recyclerobot/crdt-poc#readme",
+  "devDependencies": {
+    "automerge": "^0.10.1",
+    "esm": "^3.2.25"
+  }
+}
